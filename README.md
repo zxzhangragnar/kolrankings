@@ -91,3 +91,197 @@
 6. **Robbie Ferguson** (Immutable X 联合创始人) - [@0xferg](https://twitter.com/0xferg)
 7. **Beryl Li** (Yield Guild Games 联合创始人) - [@beru_li](https://
 
+### 已经发行个人币的名人：
+
+1. **Caitlyn Jenner**  
+   - 币名：JENNER  
+   - X账号：[@Caitlyn_Jenner](https://twitter.com/Caitlyn_Jenner)
+
+2. **Andrew Tate**  
+   - 币名：DADDY  
+   - X账号：[@Cobratate](https://twitter.com/Cobratate)
+
+3. **Iggy Azalea**  
+   - 币名：MOTHER  
+   - X账号：[@IGGYAZALEA](https://twitter.com/IGGYAZALEA)
+
+4. **Soulja Boy**  
+   - 币名：SouljaCoin  
+   - X账号：[@souljaboy](https://twitter.com/souljaboy)
+
+5. **Hulk Hogan**  
+   - 币名：Hulkmania  
+   - X账号：[@HulkHogan](https://twitter.com/HulkHogan)
+
+6. **Akon**  
+   - 币名：Akoin  
+   - X账号：[@Akon](https://twitter.com/Akon)
+
+7. **Lindsay Lohan**  
+   - 币名：LohanCoin  
+   - X账号：[@lindsaylohan](https://twitter.com/lindsaylohan)
+
+8. **Snoop Dogg**  
+   - 币名：Snoop Dogg NFTs  
+   - X账号：[@SnoopDogg](https://twitter.com/SnoopDogg)
+
+9. **Paris Hilton**  
+   - 发行NFT  
+   - X账号：[@ParisHilton](https://twitter.com/ParisHilton)
+
+10. **Gary Vaynerchuk (Gary Vee)**  
+   - 币名：VeeFriends  
+   - X账号：[@garyvee](https://twitter.com/garyvee)
+
+### 潜在有发行个人币可能的名人：
+11. **Elon Musk**  
+   - X账号：[@elonmusk](https://twitter.com/elonmusk)  
+   - 原因：已涉足Dogecoin及其他加密货币领域。
+
+12. **Kanye West**  
+   - X账号：[@kanyewest](https://twitter.com/kanyewest)  
+   - 原因：可能通过音乐版权或品牌化发币。
+
+13. **Mark Cuban**  
+   - X账号：[@mcuban](https://twitter.com/mcuban)  
+   - 原因：区块链项目投资人。
+
+14. **Kim Kardashian**  
+   - X账号：[@KimKardashian](https://twitter.com/KimKardashian)  
+   - 原因：作为影响力巨大的企业家，可能利用粉丝互动发币。
+
+15. **Justin Bieber**  
+   - X账号：[@justinbieber](https://twitter.com/justinbieber)  
+   - 原因：NFT领域活跃。
+
+16. **Shakira**  
+   - X账号：[@shakira](https://twitter.com/shakira)  
+   - 原因：音乐版权和NFT潜力大。
+
+17. **Will Smith**  
+   - X账号：[@willsmith](https://twitter.com/willsmith)  
+   - 原因：曾投资Web3项目。
+
+18. **Tom Brady**  
+   - X账号：[@TomBrady](https://twitter.com/TomBrady)  
+   - 原因：加密货币领域有合作项目。
+
+19. **Matt Damon**  
+   - X账号：[@MattDamon](https://twitter.com/MattDamon)  
+   - 原因：参与Crypto.com推广。
+
+20. **Reese Witherspoon**  
+   - X账号：[@ReeseW](https://twitter.com/ReeseW)  
+   - 原因：大力支持NFT和Web3项目。
+
+21. **Ashton Kutcher**  
+   - X账号：[@aplusk](https://twitter.com/aplusk)  
+   - 原因：是早期的比特币支持者。
+
+22. **Jack Dorsey**  
+   - X账号：[@jack](https://twitter.com/jack)  
+   - 原因：Square和比特币相关项目投资。
+
+23. **Gwyneth Paltrow**  
+   - X账号：[@GwynethPaltrow](https://twitter.com/GwynethPaltrow)  
+   - 原因：Crypto钱包投资者。
+
+24. **Serena Williams**  
+   - X账号：[@serenawilliams](https://twitter.com/serenawilliams)  
+   - 原因：参与投资NFT及区块链项目。
+
+25. **Shaquille O'Neal**  
+   - X账号：[@SHAQ](https://twitter.com/SHAQ)  
+   - 原因：通过NFT涉足区块链。
+
+26. **Stephen Curry**  
+   - X账号：[@StephenCurry30](https://twitter.com/StephenCurry30)  
+   - 原因：NFT持有者及推广者。
+
+27. **Post Malone**  
+   - X账号：[@PostMalone](https://twitter.com/PostMalone)  
+   - 原因：曾购买并推广Bored Ape Yacht Club。
+
+28. **Grimes**  
+   - X账号：[@Grimezsz](https://twitter.com/Grimezsz)  
+   - 原因：NFT艺术创作者。
+
+29. **Lil Nas X**  
+   - X账号：[@LilNasX](https://twitter.com/LilNasX)  
+   - 原因：NFT及数字艺术领域有潜力。
+
+30. **Mike Tyson**  
+   - X账号：[@MikeTyson](https://twitter.com/MikeTyson)  
+   - 原因：NFT投资人和倡导者。
+
+31. **Jimmy Fallon**  
+   - X账号：[@jimmyfallon](https://twitter.com/jimmyfallon)  
+   - 原因：他持有Bored Ape NFT。
+
+32. **Bella Hadid**  
+   - X账号：[@bellahadid](https://twitter.com/bellahadid)  
+   - 原因：曾发布虚拟艺术品并涉及NFT。
+
+33. **The Weeknd**  
+   - X账号：[@theweeknd](https://twitter.com/theweeknd)  
+   - 原因：推出NFT并与加密货币公司合作。
+
+34. **Quentin Tarantino**  
+   - X账号：[未公布]  
+   - 原因：计划发布《低俗小说》NFT。
+
+35. **Mila Kunis**  
+   - X账号：[@MilaKunisv](https://twitter.com/MilaKunisv)  
+   - 原因：曾发布加密货币相关动画项目。
+
+36. **Eminem**  
+   - X账号：[@Eminem](https://twitter.com/Eminem)  
+   - 原因：拥有多个Bored Ape NFT。
+
+37. **Doja Cat**  
+   - X账号：[@DojaCat](https://twitter.com/DojaCat)  
+   - 原因：推出过NFT。
+
+38. **Timbaland**  
+   - X账号：[@Timbaland](https://twitter.com/Timbaland)  
+   - 原因：推出了自己的NFT音乐项目。
+
+39. **DJ Khaled**  
+   - X账号：[@djkhaled](https://twitter.com/djkhaled)  
+   - 原因：对加密货币推广感兴趣。
+
+40. **Jay-Z**  
+   - X账号：[@sc](https://twitter.com/sc)  
+   - 原因：已与Jack Dorsey合作进行比特币项目。
+
+41. **Tyler, the Creator**  
+   - X账号：[@tylerthecreator](https://twitter.com/tylerthecreator)  
+   - 原因：有可能通过音乐发行代币。
+
+42. **Diplo**  
+   - X账号：[@diplo](https://twitter.com/diplo)  
+   - 原因：参与NFT和数字音乐项目。
+
+43. **Billie Eilish**  
+   - X账号：[@billieeilish](https://twitter.com/billieeilish)  
+   - 原因：可能通过品牌化或音乐发币。
+
+44. **KSI**  
+   - X账号：[@KSI](https://twitter.com/KSI)  
+   - 原因：对加密货币和NFT有浓厚兴趣。
+
+45. **Logan Paul**  
+   - X账号：[@LoganPaul](https://twitter.com/LoganPaul)  
+   - 原因：NFT领域大力推广者。
+
+46. **Steve Aoki**  
+   - X账号：[@steveaoki](https://twitter.com/steveaoki)  
+   - 原因：有自己专属的NFT系列。
+
+47. **Kevin Hart**  
+   - X账号：[@KevinHart4real](https://twitter.com/KevinHart4real)  
+   - 原因：可能通过喜剧或品牌发币。
+
+48. **Gigi Hadid**  
+   - X账号：[@GiGiHadid](https://twitter.com/GiGiHadid)  
+   - 原因：与虚拟艺术相关。
