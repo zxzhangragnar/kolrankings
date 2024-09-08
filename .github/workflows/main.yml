@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2  # 设置Python环境
       with:
-        python-version: '3.x'  # 选择Python 3.x版本
+        python-version: '3.9.7'  # 选择Python 3.x版本
 
     - name: Install dependencies
       run: |
