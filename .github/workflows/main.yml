@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest  # 使用最新的Ubuntu版本作为环境
 
     steps:
+    - name: List directory contents
+      run: ls -R
+
     - name: Checkout code
       uses: actions/checkout@v2  # 检出当前仓库的代码
 
