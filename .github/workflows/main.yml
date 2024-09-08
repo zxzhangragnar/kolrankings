@@ -26,4 +26,4 @@ jobs:
         pip install tweepy schedule  # 安装所需的Python库
 
     - name: Run Python script
-      run: python kolrankings/create_tweets.py  # 运行你的Python脚本
+      run: python ../create_tweets.py  # 运行你的Python脚本
