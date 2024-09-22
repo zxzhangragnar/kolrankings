@@ -4,8 +4,8 @@ import os
 import schedule
 import time
 
-os.environ['http_proxy'] = 'http://127.0.0.1:7078'
-os.environ['https_proxy'] = 'http://127.0.0.1:7078' 
+# os.environ['http_proxy'] = 'http://127.0.0.1:7078'
+# os.environ['https_proxy'] = 'http://127.0.0.1:7078' 
 
 consumer_key = "kRFb29wGXKUZ2RMMfPRkNxeBG"
 consumer_secret = "BEwF0htC4ENMnRS7kk6qxh2Qj4Pn0T0wWzXlhMNjTYor7YDRGE"
