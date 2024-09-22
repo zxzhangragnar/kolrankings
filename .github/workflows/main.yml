@@ -1,4 +1,4 @@
-name: Create Tweets Every 15 Minutes
+name: Create Tweets Every 15 Minutes 
 
 on:
   schedule:
