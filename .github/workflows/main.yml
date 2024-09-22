@@ -1,29 +1,30 @@
-name: Create Tweets Every 15 Minutes 
+#
+# name: Create Tweets Every 15 Minutes 
 
-on:
-  schedule:
-    - cron: '*/1 * * * *'  # 每15分钟运行一次
+# on:
+#   schedule:
+#     - cron: '*/1 * * * *'  # 每15分钟运行一次
 
-jobs:
-  create_tweets:
-    runs-on: ubuntu-latest  # 使用最新的Ubuntu版本作为环境
+# jobs:
+#   create_tweets:
+#     runs-on: ubuntu-latest  # 使用最新的Ubuntu版本作为环境
 
-    steps:
-    - name: List directory contents
-      run: ls -R
+#     steps:
+#     - name: List directory contents
+#       run: ls -R
 
-    - name: Checkout code
-      uses: actions/checkout@v2  # 检出当前仓库的代码
+#     - name: Checkout code
+#       uses: actions/checkout@v2  # 检出当前仓库的代码
 
-    - name: Set up Python
-      uses: actions/setup-python@v2  # 设置Python环境
-      with:
-        python-version: '3.9'  # 选择Python 3.x版本
+#     - name: Set up Python
+#       uses: actions/setup-python@v2  # 设置Python环境
+#       with:
+#         python-version: '3.9'  # 选择Python 3.x版本
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install tweepy schedule  # 安装所需的Python库
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install tweepy schedule  # 安装所需的Python库
 
-    - name: Run Python script
-      run: python kolrankings/create_tweets.py  # 运行你的Python脚本
+#     - name: Run Python script
+#       run: python kolrankings/create_tweets.py  # 运行你的Python脚本
