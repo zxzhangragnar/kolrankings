@@ -26,7 +26,8 @@ def job_create_twitter():
        text="This Tweet was Tweeted using Tweepy and Twitter API v2 " + now + ".")
     print(now + f" https://twitter.com/user/status/{response.data['id']}")
 
-schedule.every(3).seconds.do(job_create_twitter)
+# schedule.every(3).seconds.do(job_create_twitter)
+job_create_twitter()
 
 while True:
     schedule.run_pending()
