@@ -1,5 +1,5 @@
 
-name: Create Tweets Every 15 Minutes Task
+name: Create Tweets Every 15 Minutes TASKS
 
 on:
   schedule:
