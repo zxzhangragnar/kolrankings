@@ -3,7 +3,7 @@ name: Create Tweets Every 15 Minutes TASKS
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每15分钟运行一次
+    - cron: '*/150 * * * *'  # 每15分钟运行一次
 
 jobs:
   create_tweets:
