@@ -1,9 +1,9 @@
 
-name: Create Tweets Every 15 Minutes TASKS
+name: Create Tweets Every 180 Minutes TASKS
 
 on:
   schedule:
-    - cron: '*/150 * * * *'  # 每15分钟运行一次
+    - cron: '*/180 * * * *'  # 每15分钟运行一次
 
 jobs:
   create_tweets:
