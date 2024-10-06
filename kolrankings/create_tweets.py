@@ -29,6 +29,7 @@ def job_create_twitter():
 # schedule.every(3).seconds.do(job_create_twitter)
 job_create_twitter()
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# task ending
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
