@@ -23,7 +23,7 @@ client = tweepy.Client(
 def job_create_twitter():
     now = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
     response = client.create_tweet(
-       text="This Tweet was Tweeted using Tweepy and Twitter API v2 aaa" + now + ".")
+       text="This Tweet was Tweeted using Tweepy and Twitter API v2 bbb " + now + ".")
     print(now + f" https://twitter.com/user/status/{response.data['id']}")
 
 # schedule.every(3).seconds.do(job_create_twitter)
