@@ -1,12 +1,12 @@
 
-name: Create Tweets Every 6 Minutes TASKS
+name: Create Tweets Every 60 Minutes TASKS
 
 on:
   push:
     branches:
       - 'main'
   schedule:
-    - cron: '*/6 * * * *'  # 每15分钟运行一次
+    - cron: '*/60 * * * *'  # 每15分钟运行一次
 
 jobs:
   create_tweets:
@@ -30,4 +30,4 @@ jobs:
         pip install twikit pytz  # 安装所需的Python库
 
     - name: Run Python script
-      run: python kolrankings/twikit_1mins.py  # 运行你的Python脚本
+      run: python kolrankings/twikit_mutliuser.py  # 运行你的Python脚本
