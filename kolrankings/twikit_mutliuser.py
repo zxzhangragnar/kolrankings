@@ -173,7 +173,7 @@ async def main():
 
     # 定义要检测的关键词列表（"CA" 大小写敏感）
     case_sensitive_keywords = ["CA"]
-    case_insensitive_keywords = ["america", "address", "Token", "launch", "buy", "Crypto", "ICO"]
+    case_insensitive_keywords = ["Token", "address", "coin", "launch", "buy", "Crypto", "ICO", "tax"]
     # keywords = ["CA", "address", "Token", "launch", "buy", "Crypto", "ICO", 'coin']
     cst = pytz.timezone('Asia/Shanghai')  # 设置中国时区
     filtered_tweets_array = await get_filtered_tweets(client, kols, query_date, case_sensitive_keywords, case_insensitive_keywords, cst)
