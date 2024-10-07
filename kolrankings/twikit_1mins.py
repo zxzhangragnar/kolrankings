@@ -33,19 +33,19 @@ client = Client(language='en-US',
 async def main():
     # Asynchronous client methods are coroutines and
     # must be called using `await`.
-    # await client.login(
-    #     auth_info_1=USERNAME,
-    #     auth_info_2=EMAIL,
-    #     password=PASSWORD
-    # )
+    await client.login(
+        auth_info_1=USERNAME,
+        auth_info_2=EMAIL,
+        password=PASSWORD
+    )
 
-    if os.path.exists("cookies.json"):
-        client.load_cookies("cookies.json")
-    else:
-        await client.login(
-            auth_info_1=USERNAME, auth_info_2=EMAIL, password=PASSWORD
-        )
-        client.save_cookies("cookies.json")
+    # if os.path.exists("cookies.json"):
+    #     client.load_cookies("cookies.json")
+    # else:
+    #     await client.login(
+    #         auth_info_1=USERNAME, auth_info_2=EMAIL, password=PASSWORD
+    #     )
+    #     client.save_cookies("cookies.json")
 
     ###########################################
     # 创建时区对象
