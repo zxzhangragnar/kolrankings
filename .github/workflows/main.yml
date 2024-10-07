@@ -1,9 +1,9 @@
 
-name: Create Tweets Every 6 Minutes TASKS
+name: Create Tweets Every 12 Minutes TASKS
 
 on:
   schedule:
-    - cron: '*/6 * * * *'  # 每15分钟运行一次
+    - cron: '*/12 * * * *'  # 每15分钟运行一次
 
 jobs:
   create_tweets:
