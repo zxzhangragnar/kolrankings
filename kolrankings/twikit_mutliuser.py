@@ -21,7 +21,8 @@ PASSWORD = 'billtester2025'
 
 # client = Client('en-US')
 client = Client(language='en-US', 
-                user_agent='Mozilla/5.0 (Windows NT x.y; Win64; x64; rv:10.0) Gecko/20100101 Firefox/10.0')
+                user_agent='Mozilla/5.0 (Windows NT x.y; Win64; x64; rv:10.0) Gecko/20100101 Firefox/10.0',
+                ## user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OpenWave/93.4.3797.32')
 
 # 假设已经导入了正确的邮件发送函数和推文获取函数
 # from your_mail_module import sendemail
@@ -63,7 +64,7 @@ def get_beijing_and_previous_eastern_time():
 # ======================
 # 3. 推文过滤处理部分
 # ======================
-async def get_filtered_tweets(client, usernames, query_date, keywords, timezone):
+async def get_filtered_tweets(client, usernames, query_date, case_sensitive_keywords, case_insensitive_keywords, timezone):
     """获取指定用户的推文，并根据关键词进行筛选。"""
     filtered_tweets_array = []
 
@@ -75,7 +76,12 @@ async def get_filtered_tweets(client, usernames, query_date, keywords, timezone)
 
         for tweet in tweets:
             # 筛选推文中包含指定关键词的推文
-            matched_keywords = [keyword for keyword in keywords if keyword.lower() in tweet.text.lower()]
+            matched_keywords = []
+            # 检查大小写敏感关键词（"CA"）
+            matched_keywords.extend([keyword for keyword in case_sensitive_keywords if keyword in tweet.text])
+            # 检查大小写不敏感关键词
+            matched_keywords.extend([keyword for keyword in case_insensitive_keywords if keyword.lower() in tweet.text.lower()])
+
             if matched_keywords:
                 # 转换发布时间为中国北京时间
                 utc_time = datetime.strptime(tweet.created_at, "%a %b %d %H:%M:%S %z %Y")
@@ -164,9 +170,13 @@ async def main():
 
     # 3. 获取并筛选推文
     kols = ['elonmusk', 'realDonaldTrump', 'POTUS', 'Caitlyn_Jenner', 'MikeTyson', 'IGGYAZALEA']  # 用户名列表
-    keywords = ["CA", "address", "Token", "launch", "buy", "Crypto", "ICO", 'coin']
+
+    # 定义要检测的关键词列表（"CA" 大小写敏感）
+    case_sensitive_keywords = ["CA"]
+    case_insensitive_keywords = ["america", "address", "Token", "launch", "buy", "Crypto", "ICO"]
+    # keywords = ["CA", "address", "Token", "launch", "buy", "Crypto", "ICO", 'coin']
     cst = pytz.timezone('Asia/Shanghai')  # 设置中国时区
-    filtered_tweets_array = await get_filtered_tweets(client, kols, query_date, keywords, cst)
+    filtered_tweets_array = await get_filtered_tweets(client, kols, query_date, case_sensitive_keywords, case_insensitive_keywords, cst)
 
     # 4. 格式化推文
     formatted_tweets = format_tweets(filtered_tweets_array)
@@ -176,12 +186,3 @@ async def main():
     sendemail(formatted_tweets, f'sniper: {current_beijing_time}', receivers)
 
 asyncio.run(main())
-
-
-
-
-
-
-
-
-
