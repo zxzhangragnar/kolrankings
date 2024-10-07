@@ -21,8 +21,7 @@ PASSWORD = 'billtester2025'
 
 # client = Client('en-US')
 client = Client(language='en-US', 
-                user_agent='Mozilla/5.0 (Windows NT x.y; Win64; x64; rv:10.0) Gecko/20100101 Firefox/10.0',
-                ## user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OpenWave/93.4.3797.32')
+                user_agent='Mozilla/5.0 (Windows NT x.y; Win64; x64; rv:10.0) Gecko/20100101 Firefox/10.0')
 
 # 假设已经导入了正确的邮件发送函数和推文获取函数
 # from your_mail_module import sendemail
