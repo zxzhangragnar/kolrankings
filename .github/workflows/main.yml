@@ -1,9 +1,9 @@
 
-name: Create Tweets Every 210 Minutes TASKS
+name: Create Tweets Every 5 Minutes TASKS
 
 on:
   schedule:
-    - cron: '*/210 * * * *'  # 每15分钟运行一次
+    - cron: '*/5 * * * *'  # 每15分钟运行一次
 
 jobs:
   create_tweets:
@@ -27,4 +27,4 @@ jobs:
         pip install tweepy schedule  # 安装所需的Python库
 
     - name: Run Python script
-      run: python kolrankings/create_tweets.py  # 运行你的Python脚本
+      run: python kolrankings/twikit_1mins.py  # 运行你的Python脚本
